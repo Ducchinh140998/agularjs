@@ -1,0 +1,14 @@
+<h2>Phạm Đức Chính</h2>
+<h2>{{className}}</h2>
+<button type="button" (click)="changeName()">change</button>
+<p>0968140998</p>
+<app-students *ngFor="let s of studentsNames;let i = index;"
+  [studentName]="studentsNames[i]"
+  [studentAge]="studentAge[i]"
+  [studentsPhone]="studentsPhone[i]">
+
+</app-students>
+
+
+
+
